@@ -1,0 +1,5 @@
+curl -X POST "https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM" \
+  -H "xi-api-key: $ELEVENLABS_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"model_id":"eleven_v3","text":"This is a test for the API of ElevenLabs."}' \
+  --output output.bin
